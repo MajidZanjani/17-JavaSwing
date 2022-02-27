@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class MyOptionPane extends JFrame{
-	
+
 		JFrame jFrame;
 		String name;
 		
@@ -17,6 +17,7 @@ public class MyOptionPane extends JFrame{
 		
 		MyOptionPane myOptionPane = new MyOptionPane();
 		System.out.println("Hello " + myOptionPane.name + "!");
+		System.exit(EXIT_ON_CLOSE);
 		
 	}
 
